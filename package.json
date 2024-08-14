@@ -5,11 +5,9 @@
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
   },
-  "dependencies": {
-    "tailwindcss": "^2.2.19"
-  },
   "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.9"
   },
   "author": "Your Name",
   "license": "ISC"
