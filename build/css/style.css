@@ -552,7 +552,14 @@ video {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
-}  
+}
 
+.carousel {
+  margin-top: 5em;
+}
 
+.carousel-img {
+  height: 320px;
+  background-image: url("/images/image_slider.png");
+}
 

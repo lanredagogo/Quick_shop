@@ -1,12 +1,11 @@
 module.exports = {
-  content: ["./build/*/.html", "./src/*/.{js,jsx,ts,tsx}"],
+  content: ["./build/**/*.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       backgroundImage: {
-        "bg-img": "url('')"
-      }
+        'carousel-img': "url('/images/image_slider.png')",
+      },
     },
   },
   plugins: [],
-}
-
+};

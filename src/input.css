@@ -3,4 +3,12 @@
 @tailwind utilities;  
 
 
+.carousel {
+   margin-top: 5em; 
+}
+
+.carousel-img {
+    height: 320px;
+    background-image: url("/images/image_slider.png");
+}
 
