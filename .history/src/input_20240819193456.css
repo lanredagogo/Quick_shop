@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+
+
+.top-cat {
+    background-color: rgb(233, 229, 229);
+}
+
+.carousel-1 {
+    background-image: url(/build/images/image\ copy\ 2.png);
+    object-fit: cover;
+    width: 267px;
+    height: 367px;
+    
+    
+}

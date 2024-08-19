@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+
+
+.carousel-card {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/build/images/top_cart1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    min-width: 267px;
+    min-height: 367px;
+    border-radius: 20px;
+    
+}
+
+.card-2 {
+    background-image: url(/build/images/top_cart.png)
+}
+
+.carousel-card_title {
+    background-image: linear-gradient(to bottom, #00000000, #000000);
+    width: 100%;
+    padding-left: 46px;
+    padding-top: 3.125em ;
+    padding-bottom: 3.125em;
+    
+}
+
+.carousel-card_title:hover {
+    background-image: linear-gradient(to bottom, #00000000, #F24810);
+    padding-top: 6.125em;
+        padding-bottom: 5.125em;
+}

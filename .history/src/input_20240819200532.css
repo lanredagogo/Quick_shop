@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+
+
+.top-cat {
+    background-color: rgb(233, 229, 229);
+}
+
+.carousel-card {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/build/images/image\ copy\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    width: 267px;
+    height: 367px;
+    margin-left: 1rem;
+}
+
+.carousel-card_title {
+    background-image: linear-gradient(to bottom, #00000000, #000000);
+    width: 100%;
+    
+}
+
+.carousel-card_title:hover {
+    background-image: linear-gradient(to bottom, #00000000, #000000);
+}

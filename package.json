@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch", "prettier": "npx prettier --write **/*.html"
+    "build": "npm run tailwindcss",
+    "tailwindcss": "tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +13,8 @@
   "description": "",
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.6.5"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
   }
 }

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+
+
+.top-cat {
+    background-color: rgb(233, 229, 229);
+}
+
+.carousel-1 {
+    background-image: url("/build/images/slider3.png");
+    
+}

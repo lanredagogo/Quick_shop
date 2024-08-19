@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class=" ">
+    <div class="relative md:p-0 bg-[#FCF7F6]">
+        <header class="p-4 bg-white md:px-[4.3em] md:py-4">
+            <nav class="  ">
+                <div class="flex justify-between items-center  mb-5 md:mb-0">
+                    <div class="flex items-center justify-center">
+                        <div id="menu-bar" class="md:hidden"><img src="icons/hambuger.svg" alt="menu"></div>
+                        <div class="md:mr-4"><img src="icons/logo.svg" alt="logo" class="ml-2 "></div>
+                    </div>
+                    <div class="md:flex md:relative md:justify-center md:items-center md:w-[600px]">
+                        <input type="text" name="search" id="search"
+                            class=" bg-[#F5F5F5] hidden md:block md:w-[100%] md:px-4 py-1 rounded-2xl "
+                            placeholder="Search For Item">
+
+                        <img src="icons/search.svg" alt="search" class="hidden md:block  md:absolute md:right-2">
+                    </div>
+
+                    <div class="flex items-center justify-center">
+                        <div><img src="icons/cart.svg" alt="cart" class="md:ml-7"></div>
+                        <div class="md:flex md:justify-center md:items-center md:relative  md:px-4"><img
+                                src="icons/profile.svg" alt="" class="hidden md:block md:absolute right-36 ">
+                            <select name="pets" id="pet-select"
+                                class="hidden bg-[#F5F5F5] md:block md:ml-4 md:py-2 md:px-9 md:pr-1 rounded-[20px]">
+                                <option value="" class="hidden md:block">My
+                                    Account</option>
+                                <option value="dashboard">Dashboard</option>
+                                <option value="order-history">Order History</option>
+                                <option value="profile">Profile</option>
+                                <option value="log-out">Log out</option>
+
+                            </select>
+                            <img src="icons/profile.svg" alt="profile" class="ml-3 md:hidden">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex md:hidden">
+                    <div class="w-[100%]"><input type="text" id="search" name="search" placeholder="Search For Item"
+                            class="px-5 py-3 w-[100%] rounded-[20px] bg-[#F5F5F5]">
+                    </div>
+                    <img src="icons/search.svg" alt="search" class="ml-[-1.9rem]">
+                </div>
+            </nav>
+        </header>
+        <main class=" md:px-[4.3em]">
+            <div class="  md:flex md:gap-8 md:mt-8 p-4">
+                <div id="cat_menu"
+                    class="hidden md:block absolute top-0 left-0  z-10 md:relative max-w-80 w-[100%] pt-4 bg-white md:w-[18.43rem] rounded-[20px] ">
+                    <div class="flex justify-between ">
+                        <h3 class="text-[20px] font-bold ml-5">Categories</h3>
+                        <button id="btn"><img src="icons/close.svg" alt="" class="md:hidden mr-5"></button>
+                    </div>
+                    <div class="md:flex flex-col mt-6 ml-0 px-5">
+                        <div class="flex  gap-5 py-3"><img src="icons/shirt.svg" alt=""> Fashion</div>
+                        <div class="flex gap-5 py-3"><img src="icons/furniture.svg" alt=""> Furniture</div>
+                        <div class="flex gap-5 py-3"><img src="icons/computer.svg" alt=""> Computer</div>
+                        <div class="flex gap-5 py-3"><img src="icons/health.svg" alt=""> Health & Beauty</div>
+                        <div class="flex gap-5 py-3"><img src="icons/store.svg" alt=""> Supermarket</div>
+                        <div class="flex gap-5 py-3"><img src="icons/electronics.svg" alt=""> Electronics</div>
+                        <div class="flex gap-5 py-3"><img src="icons/games.svg" alt=""> Games</div>
+                        <div class="flex gap-5 py-3"><img src="icons/phones.svg" alt=""> Phones & Tablet</div>
+
+                    </div>
+
+                </div>
+                <div class="relative overflow-hidden rounded-[20px] md:w-[945px] md:h-[500px] md:bg-[#FFE4D3] "><img
+                        src="images/image.png" alt="" class="md:hidden">
+                    <div>
+                        <div class=""><img src="images/image copy.png" alt="" width="498px"
+                                class="hidden md:block absolute right-0 z-10">
+                        </div>
+                        <div
+                            class="w-[3.125rem] h-[3.125rem] bg-[#F248104D] absolute left-[10px] md:left-[1.88rem] md:top-[44%] top-1/3 rounded-full grid place-content-center">
+                            <img src="icons/arrow_left.svg" alt="">
+                        </div>
+                        <div
+                            class="w-[3.125rem] h-[3.125rem] bg-[#F248104D] absolute right-[10px] md:right-[1.88rem] md:top-[44%] top-1/3 rounded-full grid place-content-center">
+                            <img src="icons/arrow_right.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute top-1/3 md:left-28 right-1/3 left-[23%] w-[50%] md:top-24  ">
+                        <h1 class="hidden md:block md:mb-3 text-[3rem] leading-[3.625rem] font-bold ">Style up your
+                            wardrobe
+                        </h1>
+                        <p class="hidden md:block md:mb-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem
+                            ipsum
+                            dolor sit amet, consectetur adipiscing elit.</p>
+                        <h2 class="text-black md:hidden font-bold text-[1.4rem] mb-[10px] leading-6">Modern Classic Sofa
+                        </h2>
+
+                    </div>
+                    <div class="absolute top-[60%] right-1/3 left-[21%] w-[52%] md:left-28">
+                        <button
+                            class=" text-[14px] md:mb-24 mb-8 text-white font-bold px-[1.25rem] py-[10px] rounded-3xl bg-[#F24810] ">Explore
+                            Collections</button>
+                        <div class="flex gap-1 items-end">
+                            <div class="bg-[#F24810] w-[3.125rem] h-[10px] rounded-[5px]"></div>
+                            <div class="bg-white w-[3.125rem] h-[5px] rounded-[3px]"></div>
+                            <div class="bg-white w-[3.125rem] h-[5px] rounded-[3px]"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="hidden md:block absolute right-0 top-0"><img src="icons/circle.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="mt-[3.125rem] p-4">
+                <div>
+                    <p class="text-[1.5rem] font-bold mb-[10px]">Featured products</p>
+                    <div>
+                        <div class="w-[106px] h-[10px] bg-[#F24810] rounded-md">
+                            <div class="w-[96px] h-[10px] bg-black rounded-md"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 grid grid-cols-2 gap-5 md:flex">
+                    <div class="max-w-[295px] rounded-3xl bg-white">
+                        <img src="images/image shirt.png" alt="" class="rounded-t-3xl object-cover">
+                        <div class="md:p-5 p-5">
+                            <p class="text-[12px] text-[#F24810] mb-[5px]">Fashion</p>
+                            <p class="text-base font-bold mb-[10px] md:text-xl">Stripped Shirt</p>
+                            <div class="md:flex justify-between items-center">
+                                <div class="mb-[15px] md:mb-0 "><span
+                                        class="text-[12px] font-normal line-through mr-[5px] text-[#DFDEDE]">$7</span><span
+                                        class="text-[14px]">$5</span></div>
+                                <div><button
+                                        class="bg-[#F24810] text-sm font-bold text-white px-6 py-[10px] rounded-[20px] w-[100%] md:max-w-28 ">Buy
+                                        Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[295px] rounded-3xl bg-white">
+                        <img src="images/image shirt.png" alt="" class="rounded-t-3xl object-cover">
+                        <div class="md:p-5 p-5 ">
+                            <p class="text-[12px] text-[#F24810] mb-[5px]">Fashion</p>
+                            <p class="text-base font-bold mb-[10px] md:text-xl">Stripped Shirt</p>
+                            <div class="md:flex justify-between items-center">
+                                <div class="mb-[15px] md:mb-0"><span
+                                        class="text-[12px] font-normal line-through mr-[5px] text-[#DFDEDE]">$7</span><span
+                                        class="text-[14px]">$5</span></div>
+                                <div><button
+                                        class="bg-[#F24810] text-sm font-bold text-white px-6 py-[10px] rounded-[20px] w-[100%] md:max-w-28 ">Buy
+                                        Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[295px] rounded-3xl bg-white">
+                        <img src="images/image shirt.png" alt="" class="rounded-t-3xl object-cover">
+                        <div class="md:p-5 p-5 ">
+                            <p class="text-[12px] text-[#F24810] mb-[5px]">Fashion</p>
+                            <p class="text-base font-bold mb-[10px]">Stripped Shirt</p>
+                            <div class="md:flex justify-between items-center">
+                                <div class="mb-[15px] md:mb-0"><span
+                                        class="text-[12px] font-normal line-through mr-[5px] text-[#DFDEDE]">$7</span><span
+                                        class="text-[14px]">$5</span></div>
+                                <div><button
+                                        class="bg-[#F24810] text-sm font-bold text-white px-6 py-[10px] rounded-[20px] w-[100%] md:max-w-28 ">Buy
+                                        Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[295px] rounded-3xl bg-white">
+                        <img src="images/image shirt.png" alt="" class="rounded-t-3xl object-cover">
+                        <div class="md:p-5 p-5 ">
+                            <p class="text-[12px] text-[#F24810] mb-[5px]">Fashion</p>
+                            <p class="text-base font-bold mb-[10px]">Stripped Shirt</p>
+                            <div class="md:flex justify-between items-center">
+                                <div class="mb-[15px] md:mb-0 "><span
+                                        class="text-[12px] font-normal line-through mr-[5px] text-[#DFDEDE]">$7</span><span
+                                        class="text-[14px]">$5</span></div>
+                                <div><button
+                                        class="bg-[#F24810] text-sm font-bold text-white px-6 py-[10px] rounded-[20px] w-[100%] md:max-w-28 ">Buy
+                                        Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[3.125rem] top-cat">
+                <div class="p-4">
+                    <p class="text-[1.5rem] font-bold mb-[10px]">Top Categories</p>
+                    <div class="flex">
+                        <div class="w-[106px] h-[10px] bg-[#F24810] rounded-md">
+                            <div class="w-[96px] h-[10px] bg-black rounded-md"></div>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="carousel-1">
+                            <div class="">
+                                <p>Fashion</p>
+                                <p>108 products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
+
+    <script src=" index.js">
+    </script>
+</body>
+
+</html>
